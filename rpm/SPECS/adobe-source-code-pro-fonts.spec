@@ -10,7 +10,7 @@ License:        OFL
 URL:            http://sourceforge.net/projects/sourcesans.adobe/
 
 #unable to build from source : source format is unbuldable with free software
-Source0:        http://downloads.sourceforge.net/sourcesans.adobe/SourceCodePro_FontsOnly-%{version}.zip
+Source0:        https://github.com/downloads/adobe/Source-Code-Pro/SourceCodePro_FontsOnly-%{version}.zip
 Source1:        %{name}-fontconfig.conf
 
 BuildArch:      noarch
@@ -48,15 +48,6 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
-* Wed Aug 29 2012 Alexis Lameire <alexisis-pristontale@hotmail.com> - 1.034-1
-- update to 1.034-1 upstream release
-
-* Wed Aug 15 2012 Alexis Lameire <alexisis-pristontale@hotmail.com> - 1.033-3
-- Drop useless doc file Readme.html
-
-* Sat Aug 04 2012 Alexis Lameire <alexisis-pristontale@hotmail.com> - 1.033-2
-- use versionned source
-
-* Fri Aug 03 2012 Alexis Lameire <alexisis-pristontale@hotmail.com> - 1.033-1
+* Thu Sep 27 2012 Matt Rose <mattrose@folkwolf.net>
 - initial release
 
