@@ -18,9 +18,9 @@ BuildRequires:  fontpackages-devel
 Requires:       fontpackages-filesystem
 
 %description
-Source Code Pro is a set of OpenType fonts that have been designed to work well in
-user interface (UI) environments, as well as in text setting for screen and 
-print.
+Source Code Pro is a set of OpenType fonts that have been designed to work 
+well in user interface (UI) environments, as well as in text setting for 
+screen and print.
 
 %prep
 %setup -q -n SourceCodePro_FontsOnly-%{version}
@@ -48,6 +48,6 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
-* Thu Sep 27 2012 Matt Rose <mattrose@folkwolf.net>
+* Thu Sep 27 2012 Matt Rose <mattrose@folkwolf.net> - 1.009-1
 - initial release
 
